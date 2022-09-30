@@ -1,0 +1,18 @@
+* {
+  outline: solid red;
+}
+
+h1 {
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px;
+
+}
+
+.button{
+  padding: 100px;
+}
