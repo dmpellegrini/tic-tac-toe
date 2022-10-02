@@ -1,6 +1,6 @@
-* {
-  outline: solid red;
-}
+/* * { */
+/*   outline: solid red; */
+/* } */
 
 h1 {
   text-align: center;
@@ -9,10 +9,11 @@ h1 {
 .board {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 50px;
-
+  margin: 0 auto;
+  max-height: 400px;
+  max-width: 400px;
 }
 
 .button{
-  padding: 100px;
+  padding: 50px;
 }
